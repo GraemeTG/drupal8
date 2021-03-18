@@ -1,0 +1,13 @@
+name: d8-bs-build
+recipe: drupal8
+config:
+  webroot: web
+database:
+  config: {}
+  authentication: mysqk_native_password
+  type: mysql
+  portforward: true
+  creds:
+    user: drupal8
+    password: drupal8
+    database: drupal8
